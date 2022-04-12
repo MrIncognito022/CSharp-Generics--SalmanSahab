@@ -2,7 +2,7 @@
 {
     public abstract class BankAccount : ITransferBankAccount, IComparable, IComparable<BankAccount>
     {
-        private static int index = 1000;
+        private static int index = 1;
         public static int Total = 0;
         public BankAccount()
         {

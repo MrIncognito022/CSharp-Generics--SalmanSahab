@@ -7,5 +7,7 @@ namespace Handlers
         void Add(BankAccount bankAccount);
         BankAccount? GetBankAccount(string Code, bool ignoreCase = false);
         IEnumerable<BankAccount> GetBankAccounts();
+
+        int CompareTo()
     }
 }
